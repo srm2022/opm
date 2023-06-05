@@ -7,9 +7,10 @@
 # instance of the large dataset and prints the best objective value and the 
 # duration time (which is around 10 seconds, excluding the time spent on 
 # reading input data). 
-# Please note this code is meant to be simple and there is room for optimising it.
+# Please note that this code is meant to be simple so there is room for 
+# optimising it.
 # Comments and questions are welcome to seyed_r_mousavi@yahoo.com and new 
-# versions (if any) will be made available at # https://github.com/srm2022/opm, 
+# versions (if any) will be made available at https://github.com/srm2022/opm, 
 # as long as these accounts remain active. Thank you.
 
 import sys
