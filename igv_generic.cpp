@@ -385,34 +385,6 @@ vector<string> split(string s, char d) {
                 Ninverse[c][N[c][j]] = j;
     }//fillin_N_and_Ninverse
     //----------
-    
-
-    
-static int readParams(string filename, int pmeds[], int ps[], string abs[]) //popuates pmed, ps, and abs
-{
-    string tmprow;
-    int t = 0;
-
-    try {
-        ifstream infile(filename);
-        getline(infile, tmprow);
-
-        vector<string> paramnp;
-        while (getline(infile, tmprow)) {
-            paramnp = split(trim(tmprow), ' ');
-            pmeds[t] = stoi(trim(paramnp[0]));
-            ps[t] = stoi(trim(paramnp[1]));
-            abs[t] = trim(paramnp[2]);
-            t++;
-        }
-        infile.close();
-    }    catch (exception e) {
-        ee("could not read the parameters table");
-    }
-
-    return t;
-}//readParams
-//----------
 
     static void read_n_and_D(string theRawFilename) {
         int i, j, posFrom, posEnd, tmpM, tmpP, c, f;
