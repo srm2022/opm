@@ -8,7 +8,7 @@
 # duration time (which is around 10 seconds, excluding the time spent on 
 # reading input data). 
 # Please note this code is meant to be simple and there is room for optimising it.
-# Comments and questions may be emailed to seyed_r_mousavi@yahoo.com and new 
+# Comments and questions are welcome to seyed_r_mousavi@yahoo.com and new 
 # versions (if any) will be made available at # https://github.com/srm2022/opm, 
 # as long as these accounts remain active. Thank you.
 
