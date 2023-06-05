@@ -1,17 +1,17 @@
 
-# This is a generic C++implementation of IGV. Please customise it as per 
-# your own requirements, by changing its termination condition, reported 
-# performance indicators, etc. We customised it differently for different 
-# sections of the paper. Please also make sure the path points to your data 
-# folder. To keep it simple, it only runs once, for 10 seconds, on each 
-# instance of the large dataset and prints the best objective value and the 
-# duration time (which is around 10 seconds, excluding the time spent on 
-# reading input data). 
-# Please note that this code is meant to be simple so there is room for 
-# optimising it.
-# Comments and questions are welcome to seyed_r_mousavi@yahoo.com and new 
-# versions (if any) will be made available at https://github.com/srm2022/opm, 
-# as long as these accounts remain active. Thank you.
+// This is a generic C++implementation of IGV. Please customise it as per 
+// your own requirements, by changing its termination condition, reported 
+// performance indicators, etc. We customised it differently for different 
+// sections of the paper. Please also make sure the path points to your data 
+// folder. To keep it simple, it only runs once, for 10 seconds, on each 
+// instance of the large dataset and prints the best objective value and the 
+// duration time (which is around 10 seconds, excluding the time spent on 
+// reading input data). 
+// Please note that this code is meant to be simple so there is room for 
+// optimising it.
+// Comments and questions are welcome to seyed_r_mousavi@yahoo.com and new 
+// versions (if any) will be made available at https://github.com/srm2022/opm, 
+// as long as these accounts remain active. Thank you.
 
 #include <cstdlib>
 #include <iostream>
